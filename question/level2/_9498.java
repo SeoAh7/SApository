@@ -1,6 +1,7 @@
+package question.level2;
 import java.util.Scanner;
 
-public class Main {
+public class _9498 {
 
 	public static void main(String[] args) {
 		
