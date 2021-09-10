@@ -1,4 +1,4 @@
-package questions.level1;
+package question.level1;
 
 public class _10172 {
 	public static void main(String[] args) {

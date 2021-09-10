@@ -1,9 +1,12 @@
-package questions.level1;
+package question.level1;
 
 import java.util.Scanner;
 
-public class _1000 {
+
+public class _10998 {
+
 	public static void main(String[] args) {
+		
 		
 		Scanner scanner = new Scanner(System.in);
 
@@ -13,7 +16,7 @@ public class _1000 {
 		b = scanner.nextInt();
 
 
-	    System.out.println(a+b);
+	    System.out.println(a*b);
 
 	    scanner.close();
 
