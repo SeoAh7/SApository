@@ -10,13 +10,13 @@ public class _2439 {
 		int n;
 		n = sc.nextInt();
 		
-		for(int i=1 ; i<=n ; i++) {           //i = 1 2 3 4 5
+		for(int i=1 ; i<=n ; i++) {           //i = 1 2 3
 			
-			for(int j=1 ; j<=n-i ; j++) {    //j = n-i (1: 5-1  2: 5-2  3: 5-3  4: 5-4  5: 5-5)  1 2 3 4
-				System.out.print(" ");       // 첫째줄은 1,2,3,4 네번 둘째줄은 1,2,3 세번 ... 다섯번째줄은 0번
+			for(int j=1 ; j<=n-i ; j++) {    //j = n-i (1: 3-1  2: 3-2  3: 3-3)
+				System.out.print(" ");       // 첫째줄은 1,2 2번 둘째줄은 1 1번 세번째줄은 0번
 			}
-			for(int k=1 ;  k<=i  ; k++) {    //k = i    (1: 1   2: 2    3: 3    4: 4    5: 5)
-				System.out.print("*");       // 첫째줄은 1 한번 둘째줄은 1,2 두번 ... 다섯번째줄은 5번
+			for(int k=1 ;  k<=i  ; k++) {    //k = i    (1: 1   2: 2    3: 3)
+				System.out.print("*");       // 첫째줄은 1 한번 둘째줄은 1,2 두번 세번째줄은 1,2,3 세번
 			}
 			System.out.print('\n');
 		}

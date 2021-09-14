@@ -2,15 +2,16 @@
 public class Test {
     public static void main(String []args) {
     	
-    	int n = 6;
-
+		int n = 10;
     	
-		for (int k=n; k>=1 ; k--) {
-			
-		System.out.print("A");	
+    	for(int i=0; i<n; i++) {
+			System.out.print('*');
+			System.out.print('-');
+			System.out.print('-');
+			System.out.print('-');
+		}
 
     	
     		
-		}
     }
 }
