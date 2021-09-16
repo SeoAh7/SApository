@@ -16,7 +16,7 @@ public class _2442 {
 			{
 				if((n-i-1)<=k && (n+i)>k)
 					System.out.print("*");
-				else
+				else if((n-i-1)>k)
 					System.out.print(" ");
 			}
 		

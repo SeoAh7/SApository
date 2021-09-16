@@ -1,7 +1,7 @@
-import java.util.Random;
+package question.level3;
 import java.util.Scanner;
 
-public class Main {
+public class _8393 {
 	
     public static void main(String []args) {
     	
@@ -9,10 +9,15 @@ public class Main {
     	
     	int n;
     	n = sc.nextInt();
+
+    	int sum=0;
     	
     	for(int i=1; i<=n; i++) {
-    		System.out.printf("%d ",i);
+    		
+    		sum = sum + i;
     	}
+    	
+    	System.out.println(sum);
     	
     	sc.close();
     }

@@ -1,17 +1,18 @@
-import java.util.Random;
+package question.level3;
 import java.util.Scanner;
 
-public class Main {
+public class _2741 {
 	
     public static void main(String []args) {
     	
     	Scanner sc = new Scanner(System.in);
     	
-    	int n;
-    	n = sc.nextInt();
+    	int N;
+    	N = sc.nextInt();
     	
-    	for(int i=1; i<=n; i++) {
-    		System.out.printf("%d ",i);
+    	for(int i=1; i<=N; i++) {
+    		
+    		System.out.println(i);
     	}
     	
     	sc.close();
