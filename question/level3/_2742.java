@@ -1,7 +1,7 @@
-import java.util.Random;
+package question.level3;
 import java.util.Scanner;
 
-public class Main {
+public class _2742 {
 	
     public static void main(String []args) {
     	
@@ -10,8 +10,8 @@ public class Main {
     	int n;
     	n = sc.nextInt();
     	
-    	for(int i=1; i<=n; i++) {
-    		System.out.printf("%d ",i);
+    	for(int i=n; i>0; i--) {
+    		System.out.println(i);
     	}
     	
     	sc.close();
